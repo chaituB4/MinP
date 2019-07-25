@@ -1,0 +1,352 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Scholarship</title>
+	<style>
+	.container-fluid #main_info h3
+  {
+     position: absolute;
+     //top:4%;
+     //left:35%;
+     margin-top: 0.5%;
+     margin-left: 35.5%;
+     z-index: 99;
+     font-family:subtitlefont;
+     font-size: 25px;
+     letter-spacing: 2px;
+     font-weight: bolder;
+  }
+  .container-fluid #main_info h5
+  {
+     position:absolute;
+     //top:10%;
+     //left:37%;
+     margin-top:6.5%;
+     margin-left:32.5%;
+     z-index: 99;
+      font-family:headfont;
+      font-size: 1.3em;
+
+  }
+
+ .container-fluid #main_info h4
+  {
+     position:absolute;
+     //top:10%;
+     //left:37%;
+     margin-top:2.5%;
+     margin-left:40.5%;
+     z-index: 99;
+      font-family:headfont;
+      font-size: 1.3em;
+
+  }
+
+  .container-fluid #main_info h6
+  {
+     position:absolute;
+     //top:10%;
+     //left:37%;
+     margin-top:4.5%;
+     margin-left:37.5%;
+     z-index: 99;
+      font-family:headfont;
+      font-size: 1.3em;
+      
+  }
+  .container-fluid #news_scroll
+  {
+      position:absolute;
+     //top:10%;
+     //left:37%;
+     margin-top:9%;
+     margin-left:450px;
+     z-index: 99;
+      font-family:headfont;
+      font-size: 1em;	
+      width:52%;
+      background-color:#ffffff; 
+      //background-color: transparent;
+      opacity: 0.8;
+      box-shadow: 0px 0px 4px #888888;
+      border-radius: 2px;
+      text-align: center;
+      color: #ffffff;
+  }
+ 
+  .container-fluid #switchlogo
+  {
+    float: left;
+    position: absolute;
+    margin-top:0%;
+    margin-left:0%;
+    z-index:99;
+    border-radius:0px;
+    //display: none;
+    font-family:headfont;
+    color: black;
+    background-color: white;
+    
+  } 
+  .container-fluid #inf_list
+  {
+     float: left;
+     position: absolute;
+     margin-left:70%;
+     margin-top: 4%;
+     z-index: 99;
+  }
+  .container-fluid #inf_list p
+  {
+    color: white;
+  }
+  .container-fluid #inf_list #inf_list1,.container-fluid #inf_list #inf_list2,.container-fluid #inf_list #inf_list3,.container-fluid #inf_list #inf_list4,.container-fluid #inf_list #inf_list5
+  {
+      padding: 10px;
+    display: none;
+     background-color:#99bbff;
+    //background-color: #00e673;
+   // background-color:#666699;
+   background-color: #009966;
+     margin-top:10%;
+     //opacity:0.4;
+     //background-image: url(trasparent.png);
+    box-shadow: 0px 0px 8px gray;
+    //color: white;
+    border-radius: 4px;
+    //font-family: tablefont;
+    font-size: 16px;
+
+  }
+  
+	img.a
+	{
+		height: 50%;
+		width: auto;
+		float: left;
+		position:left-corner;
+		left: 200px;
+	}
+	h1.a
+	{
+		font-size: 40px;
+		text-shadow: 1px 1px #ff0011;
+		text-align:center;
+
+	}
+	h2.a{
+		font-size: 25px;
+		text-align: center;
+		color: blue;
+	}
+	h2.a1{
+		font-size: 25px;
+		text-align: center;
+		color: green;
+	}
+	h1.a1
+	{
+		color:orange;
+		font-size: 30px;
+		text-shadow: 1px 1px #ff0010;
+		text-align: center;
+
+	}
+	div.b{
+		background-color: lightblue;
+	}
+	ul{
+		list-style-type:none;
+		margin: 0;
+		position: -webkit-sticky;
+		padding: 15;
+		overflow: hidden;
+		background: white;
+		font-size: 19px;
+
+	}
+	li{
+		float:left;
+	}
+	li a{
+		display: block;
+		color:darkblue;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none; 
+	}
+	li a:hover{
+		background-color: pink;
+	}
+	div.c {
+ height: 5%;	
+ overflow: hidden;
+ position: relative;
+}
+ h3.c{
+ font-size: 1em;
+ color: limegreen;
+ position: absolute;
+ width: 100%;
+ height: 50%;
+ margin: -13;
+ line-height: 40px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);	
+ -moz-animation: c 25s linear infinite;
+ -webkit-animation: c 25s linear infinite;
+ animation: c 50s linear infinite;
+}
+div.c{
+  height: 3%;
+
+}
+@-moz-keyframes c {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes c {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes c {
+ 0%   { 
+ -moz-transform: translateX(100%); 
+ -webkit-transform: translateX(100%);
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); 
+ -webkit-transform: translateX(-100%);
+ transform: translateX(-100%); 
+ }
+}
+}
+div.d{
+		height: 100%;
+    margin-left:20%;
+    border-width: 20%;
+    max-width: 50%;
+    font-size: 20px;
+	}
+  div.e{
+    height: 100%;
+    margin-right:0%;
+    border-width:0%;
+    max-width: 50%;
+    font-size: 20px;
+
+  }
+  li e:hover{
+    background-color: none;
+  }
+</style>
+</head>
+<body>
+	<div class="container-fluid headpart">
+  <div class="col-xs-12 col-sm-12" style="padding:0px;">
+   
+     <div id="switchlogo">
+          <img src="pvpl.jpg" width="120" class="responsive" height="120" alt="switchlogo">
+        </div>
+      
+
+     <div class="col-xs-12 col-sm-12" style="padding:0px;">
+       <h1 style="margin-left:30%"><b>Department of Information Technology<b></h1>
+      
+          <h3 style="margin-left:8%"><center><b>SCHOLARSHIP MONITORING SYSTEM<b><center></h4>
+          
+          
+
+     </div> 
+
+  </div>
+</div><br>
+
+	<div class="">
+		
+	</div>
+	<br>
+	<div class="c">
+		<h3 class="c">Scholarships during Academic year 2018-19:- JnanaBhumi-250, Jindal-35, Moksha-69, Siddhartha Academy Merit Scholarships-100, Pragathi scholarships-45 students...</h3>
+  </div>
+	<div class="b">
+		<ul>
+			<li><a class="active" href="http://www.pvpsiddhartha.ac.in/department_it.html">Home</a></li>
+			<li><a href="news.html">News</a></li>
+			<li><a href="scholarships.html">Scholarships</a></li>
+			<li><a href="aascholar.html">Applied Scholarships</a></li>
+			<li><a href="sid.html">Received Scholarships</a></li>
+			<li><a href="http://localhost/Project/form.html">Login</a></li>
+			<li><a href="http://www.pvpsiddhartha.ac.in/contact.html">Contact</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="about.html">Gallery</a></li>
+		</ul>
+	</div >
+	<div class="container" style="align-items: center;">
+  		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    	<!-- Indicators -->
+    	<ol class="carousel-indicators">
+     	 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+     	 <li data-target="#myCarousel" data-slide-to="1"></li>
+     	 <li data-target="#myCarousel" data-slide-to="2"></li>
+     	 <li data-target="#myCarousel" data-slide-to="3"></li>
+     	 <li data-target="#myCarousel" data-slide-to="4"></li>
+     	</ol>
+
+    	<!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="http://localhost/Project/ppm.jpg" alt="Los Angeles" style="width: 100%;max-height: 533px; text-align: center;">Scholarship Distributions</img>
+      </div>
+
+      <div class="item">
+        <img src="http://localhost/Project/psv.jpg" alt="Chicago" style="width:100%;max-height: 533px;">
+      </div>
+    
+      <div class="item">
+        <img src="http://localhost/Project/pvpd.jpg" alt="New york" style="width:100%;max-height: 533px;">
+      </div>
+
+      <div class="item">
+        <img src="http://localhost/Project/ss1.jpg" alt="New york" style="width:100%;max-height: 533px;">
+      </div>
+      <div class="item">
+        <img src="http://localhost/Project/pvpb1.jpg" alt="New york" style="width:100%;max-height: 533px;">
+      </div>
+    </div>
+
+   	 <!-- Left and right controls -->
+    	<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      	<span class="glyphicon glyphicon-chevron-left"></span>
+      	<span class="sr-only">Previous</span>
+    	</a>
+    	<a class="right carousel-control" href="#myCarousel" data-slide="next">
+      	<span class="glyphicon glyphicon-chevron-right"></span>
+     	 <span class="sr-only">Next</span>
+   		 </a>
+  </div>
+</div>
+<div class="d">
+<ul>
+<IMG SRC="http://localhost/Project/new.gif" style="width:5%;max-height: 50px;"> 
+<a href="https://www.sitaramjindalfoundation.org/scholarships-for-students-in-bangalore.php" target="_blank" style="background-color:none;font-size: 15px;text-align: center;">Jindal</a><br>
+<IMG SRC="http://localhost/Project/new.gif" style="width:5%;max-height: 50px;"> 
+<a href="http://www.theiet.in/scholarship" target="_blank" style="background-color:none;font-size: 15px;text-align: center;">IET Scholarships</a><br>
+<a href="https://www.aicte-pragati-saksham-gov.in/" style="background-color:none;font-size: 15px;text-align: center;">Pragathi SCholarships for Girls</a><br>
+<br><a href="https://www.buddy4study.com/article/ntse" style="background-color:none;font-size: 15px;text-align: center;">NTSE Scholarships</a><br>
+<br><a href="http://www.pvpsiddhartha.ac.in" style="background-color:none;font-size: 15px;text-align: center;">Merit Scholarships</a><br>
+<br><a href="http://www.pvpsiddhartha.ac.in"style="background-color:none;font-size: 15px;text-align: center;">Vysyapro scholarships</a><br>
+<br><a href="http://www.pvpsiddhartha.ac.in"style="background-color:none;font-size: 15px;text-align: center;">Susiksha Suvidha Scholarships</a>
+</ul>
+</div>
+</body>
+</html>

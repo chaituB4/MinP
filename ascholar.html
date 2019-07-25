@@ -1,0 +1,391 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<title>PVPSIT</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="pvpcss/head_part.css">
+  <link rel="stylesheet" href="pvpcss/footer_style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <style type="text/css">
+     
+     /*------PVPSIT DEPARTMENTS HEAD-------*/
+     .row1 h3
+     {
+     	color: #001a4d;
+     	letter-spacing: 5px;
+     }
+     /*------panel head-----*/
+    .panel-default > .panel-heading 
+     {
+        //color:#001a4d;
+         //   letter-spacing: 5px;            
+        //background-color:#9494b8;
+        background-color:#ccddff;
+       // background-color: #00cc99;
+       //background-color: #b3b3ff;
+        //border-color:#001a4d;
+        //background-color: #595959;
+        font-size: 20px;
+        font-family: headfont;       
+     }
+     
+}
+
+/* Darker background on mouse-over */
+     .lastrow ul>li>a
+    {
+      color: white;
+}
+div.row.lastrow
+{
+    color:white;
+    text-align:left;
+  }
+
+
+
+    
+     /*------panel head title-----*/
+     .panel-default > .panel-heading  a
+     {
+          color:#001a4d;
+          font-weight: bold;
+          //color: white;
+          text-decoration: none;
+     }
+     .panel-default > .panel-body
+     {
+          box-shadow:2px 2px 4px #888888;
+          border:0px solid white;
+     }
+    .panel-default > .panel-heading  a:hover
+    {
+       color: white;
+    }
+
+     /*------Media query-------*/
+     @media screen and (max-width:768px)
+     {
+       
+         .panel .panel-body
+         {
+      	    display: none;
+         }
+    }
+  </style>
+  <script>
+     /*---Top Menu Bar hover jquery-----*/
+     $(document).ready(function () {
+        	$('.nav > li').mouseenter(function () {
+ 	           	//e.preventDefault();
+            		$('.nav > li').removeClass('active');
+	            	$(this).addClass('active');              
+                                       
+        	});  
+        });
+
+</script>
+</head>
+<body style="background-image:url('patternwalls/1.png');background-repeat:repeat;background-attachment: fixed;">
+   <!--header start-->
+   <div class="container-fluid headpart">
+	<div class="row">
+		<!-- <div class="col-xs-2 col-sm-2">
+		 	<img src="pvpsit_icon_new.png" id="logo" width="160" height="160">
+		 </div> -->
+		 <div class="col-xs-12 col-sm-12">
+		 	 <h1><center>DEPARTMENT OF INFORMATION TECHNOLOGY</center></h1>
+		 	 <!--<h5>Autonomous,Accredited by NBA,An ISO 9001:2008 Certified Institution,Approved by AICTE,Affliated to JNTU KAKINADA</h5>-->
+		 </div> 
+	</div>
+   </div>
+   <!--header end-->
+   <!--Top Menu Bar Start-->
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <!--<a class="navbar-brand" href="#">PVPSIT</a>-->
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="Chaitumin.html">Home</a></li>     
+        
+    
+        
+
+      </ul>
+      <ul class="nav navbar-nav navbar-right">  
+        
+      </ul>
+    </div>
+  </div>
+  </nav>
+   <!--Top Menu Bar End-->
+   <!-- Department header start-->
+    <div class="container-fluid">
+    	<div class="row row1">
+    		<div class="col-xs-12 col-sm-12">
+    			<h3 class="text-center">DEPARTMENTS</h3>
+    		</div>
+    	</div>
+    </div>
+    <br>
+   <!-- Department header End-->
+   <!--Department list start-->
+   <div class="container dep_list">
+      <!--row2 start-->
+   	  <div class="row row2">
+   	  	  <div class="col-xs-12 col-sm-4">
+   	  	  	   <div class="panel panel-default">
+    				<div class="panel-heading"><a  href="https://www.sitaramjindalfoundation.org/scholarships-for-students-in-bangalore.php">Sitaram Jindal</a></div>
+    				<div class="panel-body">
+    					<!--<ul>
+    						<li>Faculty Strength:37</li>
+    						<li>Student Strength:..</li>
+    					</ul>-->
+    				</div>
+  			   </div>
+   	  	  </div>
+   	  	  <div class="col-xs-12 col-sm-4">
+   	  	  	   <div class="panel panel-default">
+    				<div class="panel-heading"><a href="https://iocl.com/aboutus/scholarships.aspx">IOCL</a></div>
+    				<div class="panel-body">
+    					<!--<ul>
+    						<li>Faculty Strength:25</li>
+    						<li>Student Strength:..</li>
+    					</ul>-->
+    				</div>
+  			   </div>
+   	  	  </div>
+   	  	  <div class="col-xs-12 col-sm-4">
+   	  	  	   <div class="panel panel-default">
+    				<div class="panel-heading"><a href="department_ece.html">Electronics and Communication Engineering</a></div>
+    				<div class="panel-body">
+    					<!--<ul>
+    						<li>Faculty Strength:31</li>
+    						<li>Student Strength:..</li>
+    					</ul>-->
+    				</div>
+  			   </div>
+   	  	  </div>
+   	  </div>
+   	  <!--row2 end-->
+   	  <!--row3 start-->
+   	   <div class="row row3">
+   	  	  <div class="col-xs-12 col-sm-4">
+   	  	  	   <div class="panel panel-default">
+    				<div class="panel-heading"><a href="department_eee.html">electrical and electronics engineering</a></div>
+    				<div class="panel-body">
+    					<!--<ul>
+    						<li>Faculty Strength:32</li>
+    						<li>Student Strength:...</li>
+    					</ul>-->
+    				</div>
+  			   </div>
+   	  	  </div>
+   	  	  <div class="col-xs-12 col-sm-4">
+   	  	  	   <div class="panel panel-default">
+    				<div class="panel-heading"><a href="department_mech.html">Mechanical Engineering</a></div>
+    				<div class="panel-body">
+    					<!--<ul>
+    						<li>Faculty Strength:32</li>
+    						<li>Student Strength:...</li>
+    					</ul>-->
+    				</div>
+  			   </div>
+   	  	  </div>
+   	  	  <div class="col-xs-12 col-sm-4">
+   	  	  	   <div class="panel panel-default">
+    				<div class="panel-heading"><a href="department_civil.html">Civil Engineering</a></div>
+    				<div class="panel-body">
+    					<!--<ul>
+    						<li>Faculty Strength:5</li>
+    						<li>Student Strength:..</li>
+    					</ul>-->
+    				</div>
+  			   </div>
+   	  	  </div>
+   	  </div>
+   	  <!--row3 end-->
+   	  <!--row4 start-->
+   	   <div class="row row4">
+   	  	  <div class="col-xs-12 col-sm-4">
+   	  	  	   <div class="panel panel-default">
+    				<div class="panel-heading"><a href="department_fed.html">Freshmen Engineering</a></div>
+    				<div class="panel-body">
+    					<!--<ul>
+    						<li>Faculty Strength:12</li>
+    						<li>Student Strength:460</li>
+    					</ul>-->
+    				</div>
+  			   </div>
+   	  	  </div>
+   	  	  <div class="col-xs-12 col-sm-4">
+   	  	  	   <div class="panel panel-default">
+    				<div class="panel-heading"><a href="department_mba.html">Master of Business Administration</a></div>
+    				<div class="panel-body">
+    					<!--<ul>
+    						<li>Faculty Strength:4</li>
+    						<li>Student Strength:...</li>
+    					</ul>-->
+    				</div>
+  			   </div>
+   	  	  </div>
+   	  	  <div class="col-xs-12 col-sm-4">
+   	  	  	   <div class="panel panel-default">
+    				<div class="panel-heading"><a href="department_tp.html">Training and Placement</a></div>
+    				<div class="panel-body">
+    					<!--<ul>
+    						<li>Faculty Strength:31</li>
+    						<li>Student Strength:...</li>
+    					</ul>-->
+    				</div>
+  			   </div>
+   	  	  </div>
+   	  </div>
+   	  <!--row4 end-->
+   	  <!--row5 start-->
+   	  <div class="row row5">
+   	  	  <div class="col-xs-12 col-sm-4">
+   	  	  	   <div class="panel panel-default">
+    				<div class="panel-heading"><a href="department_library.html">Library</a></div>
+    				<div class="panel-body">
+    					<!--<ul>
+    						<li>Faculty Strength:5</li>
+    						<li>Student Strength:...</li>
+    					</ul>-->
+    				</div>
+  			   </div>
+   	  	  </div>
+   	  	  <!-- <div class="col-xs-12 col-sm-4">
+   	  	  	   <div class="panel panel-default">
+    				<div class="panel-heading"><a href="department_mba.html">Master of Business Administration</a></div>
+    				<div class="panel-body">
+    					<!--<ul>
+    						<li>Faculty Strength:8</li>
+    						<li>Student Strength:...</li>
+    					</ul>
+    				</div>
+  			   </div>
+   	  	  </div>
+   	  	  <div class="col-xs-12 col-sm-4">
+   	  	  	   <div class="panel panel-default">
+    				<div class="panel-heading"><a href="department_library.html">Library</a></div>
+    				<div class="panel-body">
+    					<!--<ul>
+    						<li>Faculty Strength:...</li>
+    						<li>Student Strength:</li>
+    					</ul>
+    				</div>
+  			   </div>
+   	  	  </div>
+   	  </div>
+   	  <!--row5 end-->
+       <!--row6 start-->
+      <div class="row row6">
+          <div class="col-xs-12 col-sm-4">
+               <div class="panel panel-default">
+            <div class="panel-heading"><a href="department_sport.html">Sports</a></div>
+            <div class="panel-body">
+              <!--<ul>
+                <li>Faculty Strength:...</li>
+                <li></li>
+              </ul>-->
+            </div>
+           </div>
+          </div>
+           <div class="row row6">
+          <div class="col-xs-12 col-sm-4">
+               <div class="panel panel-default">
+            <div class="panel-heading"><a href="yoga.html">Yoga</a></div>
+            <div class="panel-body">
+              <!--<ul>
+                <li>Faculty Strength:...</li>
+                <li></li>
+              </ul>-->
+            </div>
+           </div>
+          </div>
+          
+        
+      <!--row6 end-->
+   </div>
+   <!--Department list end-->
+   <!--footer-->
+<div class="container-fluid">
+  <div class="row lastrow" >
+    <div class="col-sm-8 col-xs-12"> 
+         <div class="row" >
+            <div > <h3 align="left">Quick Links</h3>
+           </div>
+           <div class="col-sm-1 col-xs-12"></div>
+          <div class="col-sm-2 col-xs-12">
+            <ul>        
+              <li><a href="index.html">Home</a></li>
+              <li><a href="pvpgallary.html">Gallary</a></li>
+              <li><a href="department_home.html">Department</a></li>
+              <li><a href="department_tp.html">Placements</a></li>
+              <li><a href="aboutus.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="login.html">Login</a></li>
+        </ul>   
+    </div>
+      
+  
+
+     <div class="col-sm-4 col-xs-12"> 
+        <ul> 
+        <li>
+            <a href="#">NAAC</a></li>   
+                
+          <li>
+            <a href="audit.html">Audit Statements</a></li>
+              <li ><a href="nacc/doc/servicerules.pdf">Service Rules</a></li>
+              <li><a href="nacc/doc/cc.pdf">Code of Conduct</a></li>
+              <li><a href="nacc/doc/cv.jpg">Core Values</a></li>
+               <li><a href="nacc/doc/mous.pdf">MoU's</a></li>
+              <li> <a href="accminutes.html">Academic Council Minutes</a></li>
+               <li> <a href="aicteapprovals.html">AICTE Approvals</a></li>
+                 <li><a href="nacc/doc/student_council.pdf">Student Council</a></li>
+             
+        </ul>    </div> 
+        <div class="col-sm-4 col-xs-12">
+            <ul>        
+              <li><a href="gb_minutes.html">Governing-Body Minutes</a></li>
+              <li><a href="pvpgallary.html"></a></li>
+              <li><a href="department_home.html"></a></li>
+              <li><a href="department_tp.html"></a></li>
+              <li><a href="aboutus.html"></a></li>
+              <li><a href="contact.html"></a></li>
+              <li><a href="login.html"></a></li>
+        </ul>   
+    </div>
+
+        </div> 
+      </div>
+        <div class="col-sm-4 col-xs-12" >
+        <h3>Address</h3>
+        <p>P.V.P.Siddhartha Institute Of Technology </p>
+        <p>Kanuru,Vijayawada-520 007 </p>
+        <p>Andhra Pradesh,India </p>
+        <p>Tel : 0866-2581699, 0866-2583037 , 0866-2585681,0866-2585682  </p>
+        <p>Email:principal@pvpsiddhartha.ac.in</p>        
+        <p>Fax:0866-2581184</p><br>
+        <!--<p>Copyrights reserved@pvpsit</p>-->
+    </div>
+  </div>
+</div>
+</body>
+</html>
